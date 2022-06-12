@@ -1,0 +1,23 @@
+{
+    "name": "acme/cqrs-example",
+    "description": "CQRS example",
+    "type": "project",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.7",
+        "phpunit/phpunit": "^8.5",
+        "friendsofphp/php-cs-fixer": "^3.4",
+        "phpstan/phpstan-strict-rules": "^1.2",
+        "thecodingmachine/phpstan-strict-rules": "^1.0",
+        "phpstan/extension-installer": "^1.1"
+    },
+    "require": {
+        "league/container": "^4.2",
+        "thecodingmachine/safe": "^1.3"
+    }
+}
